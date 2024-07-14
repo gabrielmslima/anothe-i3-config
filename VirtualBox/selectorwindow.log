@@ -1,0 +1,24 @@
+00:00:00.340380 VirtualBox GUI VM Selector Window 7.0.18 r162988 linux.amd64 (May  3 2024 17:29:05) release log
+00:00:00.340382 Log opened 2024-07-12T14:50:11.323536000Z
+00:00:00.340382 Build Type: release
+00:00:00.340384 OS Product: Linux
+00:00:00.340385 OS Release: 6.9.8-arch1-1
+00:00:00.340386 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 05 Jul 2024 22:11:24 +0000
+00:00:00.340407 DMI Product Name: To Be Filled By O.E.M.
+00:00:00.340416 DMI Product Version: To Be Filled By O.E.M.
+00:00:00.340420 Firmware type: UEFI
+00:00:00.340496 Secure Boot: Disabled
+00:00:00.340527 Host RAM: 5852MB (5.7GB) total, 3879MB (3.7GB) available
+00:00:00.340528 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.340529 Process ID: 295672
+00:00:00.340529 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.340551 Qt version: 5.15.14
+00:00:00.341067 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.344404 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.344429 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.931753 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 10x62 x 1900x1008
+00:00:41.637370 GUI: UIMediumEnumerator: Medium with key={{599a0cb3-18be-4d62-ac72-1d740902a21d}} created
+00:00:41.731932 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:43.671901 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:33.111902 GUI: UICommon: Handling aboutToQuit request..
+00:01:33.755307 GUI: UICommon: aboutToQuit request handled!

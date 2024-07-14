@@ -1,0 +1,275 @@
+# Set Mod key to Mod4 (Super key)
+set $mod Mod4
+
+# Font settings
+font pango:JetBrains Mono 5
+
+# default i3 tiling mode:
+workspace_layout default
+
+# Set inner/outer gaps
+gaps inner 6
+gaps outer 4
+
+# Set no border for all windows
+for_window [class="^.*"] border pixel 0
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# switch/iterate between workspaces
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# Switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# Move container to workspace and switch
+bindsym $mod+Shift+1 move container to workspace number $ws1; workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2; workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3; workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4; workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5; workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6; workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7; workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8; workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9; workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10; workspace number $ws10
+
+mode "resize" {
+    bindsym h resize shrink width 5 px or 5 ppt
+    bindsym j resize grow height 5 px or 5 ppt
+    bindsym k resize shrink height 5 px or 5 ppt
+    bindsym l resize grow width 5 px or 5 ppt
+
+    # Back to normal: Enter or Escape or $mod+r
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# start a terminal
+bindsym $mod+Return exec --no-startup-id kitty
+
+# kill focused window
+bindsym $mod+q kill
+
+# exit-menu
+bindsym $mod+Ctrl+e exec --no-startup-id ~/.config/rofi/scripts/powermenu_t1
+
+# lock by blurring the screen:
+bindsym $mod+p exec --no-startup-id ~/.config/i3/scripts/blur-lock
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to update i3)
+bindsym $mod+Shift+r restart
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# toggle tiling / floating
+bindsym $mod+Shift+f floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# open new empty workspace
+bindsym $mod+Shift+n exec --no-startup-id ~/.config/i3/scripts/empty_workspace
+
+# Multimedia Keys
+
+## App shortcuts
+bindsym $mod+w exec --no-startup-id /usr/bin/firefox
+bindsym $mod+n exec --no-startup-id /usr/bin/thunar
+bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+bindsym $mod+Shift+s exec kitty --session nvim --class="Spotify"
+
+# open fzf for zathura
+bindsym $mod+z exec --no-startup-id ~/.config/i3/scripts/fzf-zathura
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# automatic set focus new window if it opens on another workspace than the current:
+for_window [class=".*"] focus
+
+#get auth work with polkit-gnome
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+#exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+exec --no-startup-id dex --autostart --environment i3
+
+# uncomment the next line, use arandr to setup displays and save the file as monitor:
+exec --no-startup-id ~/.screenlayout/monitor.sh
+
+exec --no-startup-id /usr/bin/dunst
+
+# autotiling script
+exec_always --no-startup-id autotiling
+
+# set floating (nontiling) for apps needing it
+for_window [class="Yad" instance="yad"] floating enable
+for_window [class="Galculator" instance="galculator"] floating enable
+for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
+
+# set floating (nontiling) for special apps
+for_window [class="Xsane" instance="xsane"] floating enable
+for_window [class="pavucontrol" instance="pavucontrol"] floating enable
+for_window [class="qt5ct" instance="qt5ct"] floating enable
+for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
+for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+for_window [class="Pamac-manager"] floating enable
+for_window [window_role="About"] floating enable
+for_window [class="Nitrogen" instance="nitrogen"] floating enable
+for_window [class="Catppuccinifier" instance="catppuccinifier"] floating enable
+
+# open windows on default workspaces
+assign [class="kitty"] $ws1
+assign [class="nvim"] $ws1
+assign [class="(?i)firefox"] $ws2
+assign [class="Thunar"] $ws3
+assign [class="Spotify"] $ws4
+assign [class="Gimp"] $ws5
+assign [class="mpv"] $ws6
+
+# set border of floating window
+for_window [class="urxvt"] border pixel 0
+
+# set position of floating window
+for_window [class=".*"] move position center
+
+# rofi things
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/scripts/launcher_t2
+bindsym $mod+g exec --no-startup-id rofi -show emoji -emoji-mode copy
+
+# Change Wallpapers
+bindsym $mod+Ctrl+w exec --no-startup-id /usr/bin/nitrogen --set-zoom-fill --random ~/wallpapers/NORMAL/ --save
+bindsym $mod+Shift+w exec --no-startup-id /usr/bin/nitrogen --set-zoom-fill --random ~/wallpapers/OTHERS/ --save
+
+# Restore Last Wallpaper
+exec --no-startup-id nitrogen --restore --random
+
+# Scratchpad settings
+for_window [class="ttrm"] floating enable
+for_window [class="ttrm"] resize set 1000 600
+for_window [class="ttrm"] move scratchpad
+exec --no-startup-id kitty --class ttrm,ttrm
+
+for_window [class="yazi"] floating enable
+for_window [class="yazi"] resize set 1000 600
+for_window [class="yazi"] move scratchpad
+exec --no-startup-id kitty --class yazi,yazi -e yazi
+
+# Scratchpad keybindings
+bindsym $mod+i [class="ttrm"] scratchpad show; [class="ttrm"] move position center
+bindsym $mod+e [class="yazi"] scratchpad show; [class="yazi"] move position center
+
+# Redshift controls
+bindsym F11 exec redshift -O 4000
+bindsym F12 exec redshift -x
+
+######################################
+# color settings for bar and windows #
+######################################
+
+# Define colors variables:
+set $darkbluetrans	#08052be6
+set $darkblue		#08052b
+set $lightblue		#5294e2
+set $urgentred		#e53935
+set $white		#ffffff
+set $black		#000000
+set $purple		#e345ff
+set $darkgrey		#383c4a
+set $grey		#b0b5bd
+set $mediumgrey		#8b8b8b
+set $yellowbrown	#e1b700
+
+# define colors for windows:
+set $rosewater #f5e0dc
+set $flamingo #f2cdcd
+set $pink #f5c2e7
+set $mauve #cba6f7
+set $red #f38ba8
+set $maroon #eba0ac
+set $peach #fab387
+set $yellow #f9e2af
+set $green #a6e3a1
+set $teal #94e2d5
+set $sky #89dceb
+set $sapphire #74c7ec
+set $blue #89b4fa
+set $lavender #b4befe
+set $text #cdd6f4
+set $subtext1 #bac2de
+set $subtext0 #a6adc8
+set $overlay2 #9399b2
+set $overlay1 #7f849c
+set $overlay0 #6c7086
+set $surface2 #585b70
+set $surface1 #45475a
+set $surface0 #313244
+set $base #1e1e2e
+set $mantle #181825
+set $crust #11111b
+
+# target                 title     bg    text   indicator  border
+client.focused           $lavender $base $text  $rosewater $lavender
+client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
+client.unfocused         $overlay0 $base $text  $rosewater $overlay0
+client.urgent            $peach    $base $peach $overlay0  $peach
+client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+client.background        $base
+
+# Launch Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/i3/scripts/mouse

@@ -1,0 +1,8 @@
+[21:51:36 2024-07-08] FETCHING Version 2.36.14
+[21:51:36 2024-07-08] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.36.14/spicetify-2.36.14-linux-amd64.tar.gz
+[21:51:38 2024-07-08] EXTRACTING /home/gabriel/.spicetify/spicetify.tar.gz
+[21:51:38 2024-07-08] SETTING EXECUTABLE PERMISSIONS TO /home/gabriel/.spicetify/spicetify
+[21:51:38 2024-07-08] REMOVING /home/gabriel/.spicetify/spicetify.tar.gz
+[21:51:38 2024-07-08] spicetify path already set in /home/gabriel/.config/fish/config.fish, continuing...
+[21:51:38 2024-07-08] spicetify v2.36.14 was installed successfully to /home/gabriel/.spicetify
+[21:51:38 2024-07-08] Run 'spicetify --help' to get started

@@ -1,0 +1,9 @@
+2024/07/14-15:15:10.729 3b12c Reusing MANIFEST /home/gabriel/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/14-15:15:10.745 3b12c Recovering log #8
+2024/07/14-15:15:10.746 3b12c Reusing old log /home/gabriel/.config/discord/Local Storage/leveldb/000008.log 
+2024/07/14-15:19:15.193 3b12d Level-0 table #12: started
+2024/07/14-15:19:15.259 3b12d Level-0 table #12: 3172210 bytes OK
+2024/07/14-15:19:15.260 3b12d Delete type=0 #8
+2024/07/14-15:23:18.377 3b12d Level-0 table #14: started
+2024/07/14-15:23:18.402 3b12d Level-0 table #14: 3171761 bytes OK
+2024/07/14-15:23:18.404 3b12d Delete type=0 #11

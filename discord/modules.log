@@ -1,0 +1,761 @@
+2024-07-09T19:47:46.275Z [Modules] Modules initializing
+2024-07-09T19:47:46.275Z [Modules] Distribution: remote
+2024-07-09T19:47:46.275Z [Modules] Host updates: enabled
+2024-07-09T19:47:46.275Z [Modules] Module updates: enabled
+2024-07-09T19:47:46.275Z [Modules] Module install path: /home/gabriel/.config/discord/0.0.59/modules
+2024-07-09T19:47:46.276Z [Modules] Module installed file path: /home/gabriel/.config/discord/0.0.59/modules/installed.json
+2024-07-09T19:47:46.276Z [Modules] Module download path: /home/gabriel/.config/discord/0.0.59/modules/pending
+2024-07-09T19:47:46.559Z [Modules] Bootstrapping...
+2024-07-09T19:47:46.562Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-07-09T19:47:46.571Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-07-09T19:47:46.573Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-07-09T19:47:46.577Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-07-09T19:47:46.578Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-07-09T19:47:46.582Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-07-09T19:47:46.583Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-07-09T19:47:46.588Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-07-09T19:47:46.589Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-07-09T19:47:46.591Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-07-09T19:47:46.591Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-07-09T19:47:46.593Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-07-09T19:47:46.593Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-07-09T19:47:46.594Z [Modules] Checking for host updates.
+2024-07-09T19:47:47.111Z [Modules] Host is up to date.
+2024-07-09T19:47:47.112Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-09T19:47:47.263Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-07-09T19:47:47.264Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-07-09T19:47:47.264Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-07-09T19:47:47.264Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-07-09T19:47:47.264Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-07-09T19:47:47.264Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-07-09T19:47:47.265Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-07-09T19:47:47.265Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip
+2024-07-09T19:47:48.302Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 1%
+2024-07-09T19:47:48.432Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 2%
+2024-07-09T19:47:48.495Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 3%
+2024-07-09T19:47:48.560Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 4%
+2024-07-09T19:47:48.623Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 5%
+2024-07-09T19:47:48.657Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 6%
+2024-07-09T19:47:48.689Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 7%
+2024-07-09T19:47:48.718Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 8%
+2024-07-09T19:47:48.746Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 9%
+2024-07-09T19:47:48.781Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 10%
+2024-07-09T19:47:48.799Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 11%
+2024-07-09T19:47:48.830Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 12%
+2024-07-09T19:47:48.843Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 13%
+2024-07-09T19:47:48.857Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 14%
+2024-07-09T19:47:48.884Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 15%
+2024-07-09T19:47:48.893Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 16%
+2024-07-09T19:47:48.914Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 17%
+2024-07-09T19:47:48.924Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 18%
+2024-07-09T19:47:48.933Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 19%
+2024-07-09T19:47:48.950Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 20%
+2024-07-09T19:47:48.959Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 21%
+2024-07-09T19:47:48.968Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 22%
+2024-07-09T19:47:48.983Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 23%
+2024-07-09T19:47:48.991Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 24%
+2024-07-09T19:47:48.999Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 25%
+2024-07-09T19:47:49.012Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 26%
+2024-07-09T19:47:49.019Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 27%
+2024-07-09T19:47:49.026Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 28%
+2024-07-09T19:47:49.038Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 29%
+2024-07-09T19:47:49.045Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 30%
+2024-07-09T19:47:49.052Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 31%
+2024-07-09T19:47:49.064Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 32%
+2024-07-09T19:47:49.071Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 33%
+2024-07-09T19:47:49.079Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 34%
+2024-07-09T19:47:49.093Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 35%
+2024-07-09T19:47:49.101Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 36%
+2024-07-09T19:47:49.117Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 37%
+2024-07-09T19:47:49.125Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 38%
+2024-07-09T19:47:49.131Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 39%
+2024-07-09T19:47:49.145Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 40%
+2024-07-09T19:47:49.154Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 41%
+2024-07-09T19:47:49.161Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 42%
+2024-07-09T19:47:49.177Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 43%
+2024-07-09T19:47:49.183Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 44%
+2024-07-09T19:47:49.191Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 45%
+2024-07-09T19:47:49.206Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 46%
+2024-07-09T19:47:49.214Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 47%
+2024-07-09T19:47:49.221Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 48%
+2024-07-09T19:47:49.236Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 49%
+2024-07-09T19:47:49.243Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 50%
+2024-07-09T19:47:49.250Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 51%
+2024-07-09T19:47:49.265Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 52%
+2024-07-09T19:47:49.272Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 53%
+2024-07-09T19:47:49.288Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 54%
+2024-07-09T19:47:49.295Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 55%
+2024-07-09T19:47:49.305Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 56%
+2024-07-09T19:47:49.318Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 57%
+2024-07-09T19:47:49.326Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 58%
+2024-07-09T19:47:49.334Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 59%
+2024-07-09T19:47:49.347Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 60%
+2024-07-09T19:47:49.356Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 61%
+2024-07-09T19:47:49.361Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 62%
+2024-07-09T19:47:49.376Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 63%
+2024-07-09T19:47:49.386Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 64%
+2024-07-09T19:47:49.393Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 65%
+2024-07-09T19:47:49.408Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 66%
+2024-07-09T19:47:49.416Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 67%
+2024-07-09T19:47:49.641Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 68%
+2024-07-09T19:47:49.656Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 70%
+2024-07-09T19:47:49.662Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 71%
+2024-07-09T19:47:49.672Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 73%
+2024-07-09T19:47:49.682Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 74%
+2024-07-09T19:47:49.687Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 75%
+2024-07-09T19:47:49.692Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 77%
+2024-07-09T19:47:49.702Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 78%
+2024-07-09T19:47:49.709Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 79%
+2024-07-09T19:47:49.717Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 80%
+2024-07-09T19:47:49.719Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 81%
+2024-07-09T19:47:49.725Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 82%
+2024-07-09T19:47:49.734Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 84%
+2024-07-09T19:47:49.738Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 85%
+2024-07-09T19:47:49.743Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 86%
+2024-07-09T19:47:49.749Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 87%
+2024-07-09T19:47:49.756Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 89%
+2024-07-09T19:47:49.771Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 90%
+2024-07-09T19:47:49.776Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 91%
+2024-07-09T19:47:49.824Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 92%
+2024-07-09T19:47:49.834Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 93%
+2024-07-09T19:47:49.840Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 94%
+2024-07-09T19:47:49.841Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 95%
+2024-07-09T19:47:49.843Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 96%
+2024-07-09T19:47:49.850Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 97%
+2024-07-09T19:47:49.860Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 99%
+2024-07-09T19:47:49.861Z [Modules] Streaming discord_desktop_core@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 100%
+2024-07-09T19:47:49.863Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-07-09T19:47:49.863Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip
+2024-07-09T19:47:50.250Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 1%
+2024-07-09T19:47:50.259Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 2%
+2024-07-09T19:47:50.279Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 3%
+2024-07-09T19:47:50.288Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 4%
+2024-07-09T19:47:50.296Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 5%
+2024-07-09T19:47:50.306Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 6%
+2024-07-09T19:47:50.324Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 7%
+2024-07-09T19:47:50.333Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 8%
+2024-07-09T19:47:50.342Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 9%
+2024-07-09T19:47:50.360Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 10%
+2024-07-09T19:47:50.368Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 11%
+2024-07-09T19:47:50.378Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 12%
+2024-07-09T19:47:50.398Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 13%
+2024-07-09T19:47:50.406Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 14%
+2024-07-09T19:47:50.417Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 15%
+2024-07-09T19:47:50.433Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 16%
+2024-07-09T19:47:50.442Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 17%
+2024-07-09T19:47:50.452Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 18%
+2024-07-09T19:47:50.470Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 19%
+2024-07-09T19:47:50.482Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 20%
+2024-07-09T19:47:50.489Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 21%
+2024-07-09T19:47:50.507Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 22%
+2024-07-09T19:47:50.516Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 23%
+2024-07-09T19:47:50.525Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 24%
+2024-07-09T19:47:50.977Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 25%
+2024-07-09T19:47:50.984Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 26%
+2024-07-09T19:47:50.990Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 27%
+2024-07-09T19:47:50.992Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 28%
+2024-07-09T19:47:51.012Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 30%
+2024-07-09T19:47:51.018Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 31%
+2024-07-09T19:47:51.334Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 32%
+2024-07-09T19:47:51.340Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 34%
+2024-07-09T19:47:51.349Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 35%
+2024-07-09T19:47:51.351Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 36%
+2024-07-09T19:47:51.354Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 37%
+2024-07-09T19:47:51.356Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 40%
+2024-07-09T19:47:51.366Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 42%
+2024-07-09T19:47:51.371Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 43%
+2024-07-09T19:47:51.372Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 46%
+2024-07-09T19:47:51.373Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 48%
+2024-07-09T19:47:51.379Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 49%
+2024-07-09T19:47:51.390Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 51%
+2024-07-09T19:47:51.400Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 52%
+2024-07-09T19:47:51.401Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 55%
+2024-07-09T19:47:51.402Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 62%
+2024-07-09T19:47:51.427Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 63%
+2024-07-09T19:47:51.436Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 66%
+2024-07-09T19:47:51.437Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 68%
+2024-07-09T19:47:51.440Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 71%
+2024-07-09T19:47:51.441Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 75%
+2024-07-09T19:47:51.442Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 81%
+2024-07-09T19:47:51.443Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 87%
+2024-07-09T19:47:51.444Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 90%
+2024-07-09T19:47:51.482Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 93%
+2024-07-09T19:47:51.483Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 96%
+2024-07-09T19:47:51.484Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 97%
+2024-07-09T19:47:51.485Z [Modules] Streaming discord_erlpack@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 100%
+2024-07-09T19:47:51.486Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-07-09T19:47:51.487Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip
+2024-07-09T19:47:51.909Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 1%
+2024-07-09T19:47:51.951Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 2%
+2024-07-09T19:47:51.983Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 3%
+2024-07-09T19:47:52.025Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 4%
+2024-07-09T19:47:52.064Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 5%
+2024-07-09T19:47:52.099Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 6%
+2024-07-09T19:47:52.134Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 7%
+2024-07-09T19:47:52.169Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 8%
+2024-07-09T19:47:52.203Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 9%
+2024-07-09T19:47:52.237Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 10%
+2024-07-09T19:47:52.274Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 11%
+2024-07-09T19:47:52.307Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 12%
+2024-07-09T19:47:52.336Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 13%
+2024-07-09T19:47:52.365Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 14%
+2024-07-09T19:47:52.393Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 15%
+2024-07-09T19:47:52.420Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 16%
+2024-07-09T19:47:52.453Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 17%
+2024-07-09T19:47:52.481Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 18%
+2024-07-09T19:47:52.507Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 19%
+2024-07-09T19:47:52.533Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 20%
+2024-07-09T19:47:52.558Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 21%
+2024-07-09T19:47:52.587Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 22%
+2024-07-09T19:47:52.611Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 23%
+2024-07-09T19:47:52.634Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 24%
+2024-07-09T19:47:52.657Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 25%
+2024-07-09T19:47:52.680Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 26%
+2024-07-09T19:47:52.702Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 27%
+2024-07-09T19:47:52.728Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 28%
+2024-07-09T19:47:52.750Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 29%
+2024-07-09T19:47:52.771Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 30%
+2024-07-09T19:47:52.792Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 31%
+2024-07-09T19:47:52.812Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 32%
+2024-07-09T19:47:52.836Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 33%
+2024-07-09T19:47:52.856Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 34%
+2024-07-09T19:47:52.874Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 35%
+2024-07-09T19:47:52.894Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 36%
+2024-07-09T19:47:52.913Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 37%
+2024-07-09T19:47:52.932Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 38%
+2024-07-09T19:47:52.953Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 39%
+2024-07-09T19:47:52.970Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 40%
+2024-07-09T19:47:52.988Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 41%
+2024-07-09T19:47:53.006Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 42%
+2024-07-09T19:47:53.024Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 43%
+2024-07-09T19:47:53.043Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 44%
+2024-07-09T19:47:53.060Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 45%
+2024-07-09T19:47:53.076Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 46%
+2024-07-09T19:47:53.096Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 47%
+2024-07-09T19:47:53.118Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 48%
+2024-07-09T19:47:53.141Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 49%
+2024-07-09T19:47:53.167Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 50%
+2024-07-09T19:47:53.190Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 51%
+2024-07-09T19:47:53.213Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 52%
+2024-07-09T19:47:53.234Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 53%
+2024-07-09T19:47:53.256Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 54%
+2024-07-09T19:47:53.279Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 55%
+2024-07-09T19:47:53.305Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 56%
+2024-07-09T19:47:53.327Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 57%
+2024-07-09T19:47:53.969Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 58%
+2024-07-09T19:47:54.201Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 59%
+2024-07-09T19:47:54.203Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 60%
+2024-07-09T19:47:54.205Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 62%
+2024-07-09T19:47:54.207Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 64%
+2024-07-09T19:47:54.209Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 67%
+2024-07-09T19:47:54.210Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 69%
+2024-07-09T19:47:54.212Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 73%
+2024-07-09T19:47:54.215Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 75%
+2024-07-09T19:47:54.217Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 76%
+2024-07-09T19:47:54.219Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 78%
+2024-07-09T19:47:54.221Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 80%
+2024-07-09T19:47:54.222Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 82%
+2024-07-09T19:47:54.224Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 86%
+2024-07-09T19:47:54.227Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 87%
+2024-07-09T19:47:54.231Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 88%
+2024-07-09T19:47:54.266Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 89%
+2024-07-09T19:47:54.268Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 90%
+2024-07-09T19:47:54.351Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 91%
+2024-07-09T19:47:54.355Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 92%
+2024-07-09T19:47:54.358Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 93%
+2024-07-09T19:47:54.392Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 94%
+2024-07-09T19:47:54.414Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 95%
+2024-07-09T19:47:54.431Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 96%
+2024-07-09T19:47:54.449Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 97%
+2024-07-09T19:47:54.467Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 98%
+2024-07-09T19:47:54.484Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 99%
+2024-07-09T19:47:54.500Z [Modules] Streaming discord_spellcheck@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 100%
+2024-07-09T19:47:54.502Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-07-09T19:47:54.502Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip
+2024-07-09T19:47:54.897Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 1%
+2024-07-09T19:47:54.903Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 2%
+2024-07-09T19:47:54.909Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 3%
+2024-07-09T19:47:54.915Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 4%
+2024-07-09T19:47:54.920Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 5%
+2024-07-09T19:47:54.926Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 6%
+2024-07-09T19:47:54.933Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 7%
+2024-07-09T19:47:54.939Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 8%
+2024-07-09T19:47:54.944Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 9%
+2024-07-09T19:47:54.951Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 10%
+2024-07-09T19:47:54.956Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 11%
+2024-07-09T19:47:54.962Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 12%
+2024-07-09T19:47:54.968Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 13%
+2024-07-09T19:47:54.973Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 14%
+2024-07-09T19:47:54.983Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 15%
+2024-07-09T19:47:54.989Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 16%
+2024-07-09T19:47:54.994Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 17%
+2024-07-09T19:47:55.000Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 18%
+2024-07-09T19:47:55.006Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 19%
+2024-07-09T19:47:55.012Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 20%
+2024-07-09T19:47:55.018Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 21%
+2024-07-09T19:47:55.024Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 22%
+2024-07-09T19:47:55.029Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 23%
+2024-07-09T19:47:55.036Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 24%
+2024-07-09T19:47:55.041Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 25%
+2024-07-09T19:47:55.048Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 26%
+2024-07-09T19:47:55.054Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 27%
+2024-07-09T19:47:55.059Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 28%
+2024-07-09T19:47:55.066Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 29%
+2024-07-09T19:47:55.071Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 30%
+2024-07-09T19:47:55.074Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 31%
+2024-07-09T19:47:55.086Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 32%
+2024-07-09T19:47:55.087Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 33%
+2024-07-09T19:47:55.092Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 34%
+2024-07-09T19:47:55.097Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 35%
+2024-07-09T19:47:55.102Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 36%
+2024-07-09T19:47:55.106Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 37%
+2024-07-09T19:47:55.113Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 38%
+2024-07-09T19:47:55.117Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 39%
+2024-07-09T19:47:55.120Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 40%
+2024-07-09T19:47:55.125Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 41%
+2024-07-09T19:47:55.129Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 42%
+2024-07-09T19:47:55.134Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 43%
+2024-07-09T19:47:55.139Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 44%
+2024-07-09T19:47:55.143Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 45%
+2024-07-09T19:47:55.149Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 46%
+2024-07-09T19:47:55.154Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 47%
+2024-07-09T19:47:55.158Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 48%
+2024-07-09T19:47:55.165Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 49%
+2024-07-09T19:47:55.170Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 50%
+2024-07-09T19:47:55.174Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 51%
+2024-07-09T19:47:55.179Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 52%
+2024-07-09T19:47:55.184Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 53%
+2024-07-09T19:47:55.189Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 54%
+2024-07-09T19:47:55.194Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 55%
+2024-07-09T19:47:55.198Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 56%
+2024-07-09T19:47:55.203Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 57%
+2024-07-09T19:47:55.208Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 58%
+2024-07-09T19:47:55.211Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 59%
+2024-07-09T19:47:55.218Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 60%
+2024-07-09T19:47:55.221Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 61%
+2024-07-09T19:47:55.227Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 62%
+2024-07-09T19:47:55.231Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 63%
+2024-07-09T19:47:55.236Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 64%
+2024-07-09T19:47:55.243Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 65%
+2024-07-09T19:47:55.248Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 66%
+2024-07-09T19:47:55.252Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 67%
+2024-07-09T19:47:55.256Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 68%
+2024-07-09T19:47:55.261Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 69%
+2024-07-09T19:47:55.266Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 70%
+2024-07-09T19:47:55.271Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 71%
+2024-07-09T19:47:55.275Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 72%
+2024-07-09T19:47:55.279Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 73%
+2024-07-09T19:47:55.284Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 74%
+2024-07-09T19:47:55.289Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 75%
+2024-07-09T19:47:55.293Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 76%
+2024-07-09T19:47:55.298Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 77%
+2024-07-09T19:47:55.302Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 78%
+2024-07-09T19:47:55.306Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 79%
+2024-07-09T19:47:55.311Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 80%
+2024-07-09T19:47:55.315Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 81%
+2024-07-09T19:47:55.322Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 82%
+2024-07-09T19:47:55.326Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 83%
+2024-07-09T19:47:55.331Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 84%
+2024-07-09T19:47:55.334Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 85%
+2024-07-09T19:47:55.339Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 86%
+2024-07-09T19:47:55.343Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 87%
+2024-07-09T19:47:55.347Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 88%
+2024-07-09T19:47:55.351Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 89%
+2024-07-09T19:47:55.355Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 90%
+2024-07-09T19:47:55.359Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 91%
+2024-07-09T19:47:55.363Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 92%
+2024-07-09T19:47:55.368Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 93%
+2024-07-09T19:47:55.371Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 94%
+2024-07-09T19:47:55.376Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 95%
+2024-07-09T19:47:55.380Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 96%
+2024-07-09T19:47:55.384Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 97%
+2024-07-09T19:47:55.388Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 98%
+2024-07-09T19:47:55.393Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 99%
+2024-07-09T19:47:55.395Z [Modules] Streaming discord_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 100%
+2024-07-09T19:47:55.397Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-07-09T19:47:55.398Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip
+2024-07-09T19:47:55.792Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 1%
+2024-07-09T19:47:55.825Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 2%
+2024-07-09T19:47:55.857Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 3%
+2024-07-09T19:47:55.890Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 4%
+2024-07-09T19:47:55.919Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 5%
+2024-07-09T19:47:55.951Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 6%
+2024-07-09T19:47:55.975Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 7%
+2024-07-09T19:47:56.001Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 8%
+2024-07-09T19:47:56.026Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 9%
+2024-07-09T19:47:56.052Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 10%
+2024-07-09T19:47:56.079Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 11%
+2024-07-09T19:47:56.104Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 12%
+2024-07-09T19:47:56.130Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 13%
+2024-07-09T19:47:56.154Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 14%
+2024-07-09T19:47:56.179Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 15%
+2024-07-09T19:47:56.201Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 16%
+2024-07-09T19:47:56.225Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 17%
+2024-07-09T19:47:56.248Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 18%
+2024-07-09T19:47:56.315Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 19%
+2024-07-09T19:47:56.378Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 20%
+2024-07-09T19:47:56.447Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 21%
+2024-07-09T19:47:56.509Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 22%
+2024-07-09T19:47:57.483Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 23%
+2024-07-09T19:47:57.507Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 24%
+2024-07-09T19:47:57.539Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 25%
+2024-07-09T19:47:57.571Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 26%
+2024-07-09T19:47:57.574Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 27%
+2024-07-09T19:47:57.575Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 28%
+2024-07-09T19:47:57.577Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 29%
+2024-07-09T19:47:57.578Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 30%
+2024-07-09T19:47:57.579Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 31%
+2024-07-09T19:47:57.580Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 33%
+2024-07-09T19:47:57.584Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 34%
+2024-07-09T19:47:57.587Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 35%
+2024-07-09T19:47:57.597Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 36%
+2024-07-09T19:47:57.617Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 37%
+2024-07-09T19:47:57.629Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 38%
+2024-07-09T19:47:57.749Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 39%
+2024-07-09T19:47:57.770Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 40%
+2024-07-09T19:47:57.792Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 41%
+2024-07-09T19:47:57.845Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 42%
+2024-07-09T19:47:57.912Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 43%
+2024-07-09T19:47:57.977Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 44%
+2024-07-09T19:47:58.979Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 45%
+2024-07-09T19:47:58.986Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 46%
+2024-07-09T19:47:59.017Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 47%
+2024-07-09T19:47:59.045Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 48%
+2024-07-09T19:47:59.065Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 49%
+2024-07-09T19:47:59.087Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 50%
+2024-07-09T19:47:59.088Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 51%
+2024-07-09T19:47:59.091Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 52%
+2024-07-09T19:47:59.093Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 53%
+2024-07-09T19:47:59.095Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 54%
+2024-07-09T19:47:59.097Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 55%
+2024-07-09T19:47:59.099Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 57%
+2024-07-09T19:47:59.102Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 59%
+2024-07-09T19:47:59.122Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 60%
+2024-07-09T19:47:59.127Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 61%
+2024-07-09T19:47:59.282Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 62%
+2024-07-09T19:47:59.303Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 63%
+2024-07-09T19:47:59.371Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 64%
+2024-07-09T19:47:59.437Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 65%
+2024-07-09T19:47:59.505Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 66%
+2024-07-09T19:48:00.523Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 67%
+2024-07-09T19:48:00.545Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 68%
+2024-07-09T19:48:00.571Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 69%
+2024-07-09T19:48:00.630Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 70%
+2024-07-09T19:48:00.638Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 71%
+2024-07-09T19:48:00.668Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 72%
+2024-07-09T19:48:00.671Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 73%
+2024-07-09T19:48:00.679Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 74%
+2024-07-09T19:48:00.680Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 77%
+2024-07-09T19:48:00.692Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 78%
+2024-07-09T19:48:00.693Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 79%
+2024-07-09T19:48:00.700Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 80%
+2024-07-09T19:48:00.702Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 81%
+2024-07-09T19:48:00.705Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 82%
+2024-07-09T19:48:00.707Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 83%
+2024-07-09T19:48:00.861Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 84%
+2024-07-09T19:48:00.912Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 85%
+2024-07-09T19:48:00.968Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 86%
+2024-07-09T19:48:01.019Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 87%
+2024-07-09T19:48:01.073Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 88%
+2024-07-09T19:48:01.124Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 89%
+2024-07-09T19:48:01.193Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 90%
+2024-07-09T19:48:01.245Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 91%
+2024-07-09T19:48:01.299Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 92%
+2024-07-09T19:48:01.351Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 93%
+2024-07-09T19:48:01.406Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 94%
+2024-07-09T19:48:01.461Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 95%
+2024-07-09T19:48:01.513Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 96%
+2024-07-09T19:48:01.577Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 97%
+2024-07-09T19:48:01.641Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 98%
+2024-07-09T19:48:01.711Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 99%
+2024-07-09T19:48:01.772Z [Modules] Streaming discord_voice@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 100%
+2024-07-09T19:48:01.774Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-07-09T19:48:01.775Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip
+2024-07-09T19:48:02.135Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 4%
+2024-07-09T19:48:02.138Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 7%
+2024-07-09T19:48:02.141Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 11%
+2024-07-09T19:48:02.145Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 15%
+2024-07-09T19:48:02.150Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 19%
+2024-07-09T19:48:02.153Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 23%
+2024-07-09T19:48:02.156Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 27%
+2024-07-09T19:48:02.159Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 31%
+2024-07-09T19:48:02.163Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 35%
+2024-07-09T19:48:02.168Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 39%
+2024-07-09T19:48:02.171Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 43%
+2024-07-09T19:48:02.175Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 47%
+2024-07-09T19:48:02.178Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 51%
+2024-07-09T19:48:02.182Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 56%
+2024-07-09T19:48:02.185Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 60%
+2024-07-09T19:48:02.188Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 64%
+2024-07-09T19:48:02.193Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 68%
+2024-07-09T19:48:02.199Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 72%
+2024-07-09T19:48:02.202Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 76%
+2024-07-09T19:48:02.204Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 80%
+2024-07-09T19:48:02.207Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 84%
+2024-07-09T19:48:02.211Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 88%
+2024-07-09T19:48:02.216Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 92%
+2024-07-09T19:48:02.219Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 96%
+2024-07-09T19:48:02.222Z [Modules] Streaming discord_zstd@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 100%
+2024-07-09T19:48:02.225Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-07-09T19:48:02.225Z [Modules] Installing updates...
+2024-07-09T19:48:02.225Z [Modules] Installing discord_desktop_core@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip
+2024-07-09T19:48:02.376Z [Modules] Installing discord_erlpack@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip
+2024-07-09T19:48:02.477Z [Modules] Installing discord_spellcheck@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip
+2024-07-09T19:48:03.714Z [Modules] Installing discord_utils@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_utils-1.zip
+2024-07-09T19:48:03.898Z [Modules] Installing discord_voice@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_voice-1.zip
+2024-07-09T19:48:04.606Z [Modules] Installing discord_zstd@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip
+2024-07-09T19:48:04.623Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-07-09T19:48:04.623Z [Modules] Checking for host updates.
+2024-07-09T19:48:04.807Z [Modules] Host is up to date.
+2024-07-09T19:48:04.807Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-09T19:48:04.811Z [Modules] No module updates available.
+2024-07-09T19:48:07.193Z [Modules] Starting to install discord_krisp...
+2024-07-09T19:48:07.193Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-07-09T19:48:07.193Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip
+2024-07-09T19:48:07.205Z [Modules] Starting to install discord_game_utils...
+2024-07-09T19:48:07.621Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 1%
+2024-07-09T19:48:07.677Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 2%
+2024-07-09T19:48:07.758Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 3%
+2024-07-09T19:48:08.315Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 4%
+2024-07-09T19:48:08.369Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 5%
+2024-07-09T19:48:08.379Z [Modules] Checking for host updates.
+2024-07-09T19:48:08.420Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 6%
+2024-07-09T19:48:08.475Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 7%
+2024-07-09T19:48:08.527Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 8%
+2024-07-09T19:48:08.553Z [Modules] Starting to install discord_rpc...
+2024-07-09T19:48:08.575Z [Modules] Host is up to date.
+2024-07-09T19:48:08.576Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-09T19:48:08.580Z [Modules] No module updates available.
+2024-07-09T19:48:08.584Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 9%
+2024-07-09T19:48:08.637Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 10%
+2024-07-09T19:48:08.689Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 11%
+2024-07-09T19:48:08.744Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 12%
+2024-07-09T19:48:08.795Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 13%
+2024-07-09T19:48:08.857Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 14%
+2024-07-09T19:48:08.906Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 15%
+2024-07-09T19:48:09.049Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 17%
+2024-07-09T19:48:09.061Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 18%
+2024-07-09T19:48:09.091Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 19%
+2024-07-09T19:48:09.135Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 20%
+2024-07-09T19:48:09.177Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 21%
+2024-07-09T19:48:09.219Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 22%
+2024-07-09T19:48:09.257Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 23%
+2024-07-09T19:48:09.296Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 24%
+2024-07-09T19:48:09.335Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 25%
+2024-07-09T19:48:09.365Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 26%
+2024-07-09T19:48:09.399Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 27%
+2024-07-09T19:48:09.435Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 28%
+2024-07-09T19:48:09.467Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 29%
+2024-07-09T19:48:09.501Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 30%
+2024-07-09T19:48:09.531Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 31%
+2024-07-09T19:48:09.561Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 32%
+2024-07-09T19:48:09.590Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 33%
+2024-07-09T19:48:09.619Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 34%
+2024-07-09T19:48:09.647Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 35%
+2024-07-09T19:48:09.673Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 36%
+2024-07-09T19:48:09.701Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 37%
+2024-07-09T19:48:09.728Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 38%
+2024-07-09T19:48:09.753Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 39%
+2024-07-09T19:48:09.779Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 40%
+2024-07-09T19:48:09.804Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 41%
+2024-07-09T19:48:09.829Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 42%
+2024-07-09T19:48:09.852Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 43%
+2024-07-09T19:48:09.874Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 44%
+2024-07-09T19:48:09.899Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 45%
+2024-07-09T19:48:09.938Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 46%
+2024-07-09T19:48:10.009Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 47%
+2024-07-09T19:48:10.078Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 48%
+2024-07-09T19:48:10.140Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 49%
+2024-07-09T19:48:10.209Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 50%
+2024-07-09T19:48:10.602Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 51%
+2024-07-09T19:48:11.154Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 52%
+2024-07-09T19:48:11.165Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 53%
+2024-07-09T19:48:11.167Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 54%
+2024-07-09T19:48:11.169Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 55%
+2024-07-09T19:48:11.170Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 56%
+2024-07-09T19:48:11.172Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 57%
+2024-07-09T19:48:11.175Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 58%
+2024-07-09T19:48:11.177Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 59%
+2024-07-09T19:48:11.179Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 60%
+2024-07-09T19:48:11.182Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 61%
+2024-07-09T19:48:11.187Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 64%
+2024-07-09T19:48:11.189Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 65%
+2024-07-09T19:48:11.344Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 66%
+2024-07-09T19:48:11.368Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 67%
+2024-07-09T19:48:11.388Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 68%
+2024-07-09T19:48:11.409Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 69%
+2024-07-09T19:48:11.432Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 70%
+2024-07-09T19:48:11.454Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 71%
+2024-07-09T19:48:11.475Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 72%
+2024-07-09T19:48:11.531Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 73%
+2024-07-09T19:48:11.595Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 74%
+2024-07-09T19:48:11.662Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 75%
+2024-07-09T19:48:12.653Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 76%
+2024-07-09T19:48:12.675Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 77%
+2024-07-09T19:48:12.684Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 78%
+2024-07-09T19:48:12.730Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 79%
+2024-07-09T19:48:12.734Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 80%
+2024-07-09T19:48:12.735Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 81%
+2024-07-09T19:48:12.736Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 82%
+2024-07-09T19:48:12.737Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 83%
+2024-07-09T19:48:12.739Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 84%
+2024-07-09T19:48:12.740Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 85%
+2024-07-09T19:48:12.741Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 86%
+2024-07-09T19:48:12.741Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 87%
+2024-07-09T19:48:12.742Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 88%
+2024-07-09T19:48:12.751Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 89%
+2024-07-09T19:48:12.769Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 90%
+2024-07-09T19:48:12.807Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 91%
+2024-07-09T19:48:12.908Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 92%
+2024-07-09T19:48:12.932Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 93%
+2024-07-09T19:48:12.954Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 94%
+2024-07-09T19:48:12.999Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 95%
+2024-07-09T19:48:13.068Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 96%
+2024-07-09T19:48:13.364Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 97%
+2024-07-09T19:48:13.430Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 98%
+2024-07-09T19:48:13.446Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 99%
+2024-07-09T19:48:13.550Z [Modules] Streaming discord_krisp@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 100%
+2024-07-09T19:48:13.579Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-07-09T19:48:13.579Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip
+2024-07-09T19:48:13.579Z [Modules] Installing discord_krisp@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip
+2024-07-09T19:48:13.976Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 1%
+2024-07-09T19:48:13.980Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 2%
+2024-07-09T19:48:13.983Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 3%
+2024-07-09T19:48:13.985Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 4%
+2024-07-09T19:48:13.988Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 5%
+2024-07-09T19:48:13.992Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 6%
+2024-07-09T19:48:13.993Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 7%
+2024-07-09T19:48:13.996Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 8%
+2024-07-09T19:48:14.000Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 9%
+2024-07-09T19:48:14.002Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 10%
+2024-07-09T19:48:14.004Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 11%
+2024-07-09T19:48:14.008Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 12%
+2024-07-09T19:48:14.012Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 13%
+2024-07-09T19:48:14.013Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 14%
+2024-07-09T19:48:14.019Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 15%
+2024-07-09T19:48:14.021Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 16%
+2024-07-09T19:48:14.022Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 17%
+2024-07-09T19:48:14.025Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 18%
+2024-07-09T19:48:14.028Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 19%
+2024-07-09T19:48:14.031Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 20%
+2024-07-09T19:48:14.034Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 21%
+2024-07-09T19:48:14.037Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 22%
+2024-07-09T19:48:14.039Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 23%
+2024-07-09T19:48:14.042Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 24%
+2024-07-09T19:48:14.047Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 25%
+2024-07-09T19:48:14.052Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 27%
+2024-07-09T19:48:14.053Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 28%
+2024-07-09T19:48:14.057Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 29%
+2024-07-09T19:48:14.058Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 30%
+2024-07-09T19:48:14.061Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 31%
+2024-07-09T19:48:14.065Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 32%
+2024-07-09T19:48:14.066Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 33%
+2024-07-09T19:48:14.070Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 34%
+2024-07-09T19:48:14.073Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 35%
+2024-07-09T19:48:14.074Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 36%
+2024-07-09T19:48:14.078Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 37%
+2024-07-09T19:48:14.083Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 38%
+2024-07-09T19:48:14.085Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 39%
+2024-07-09T19:48:14.087Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 40%
+2024-07-09T19:48:14.090Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 41%
+2024-07-09T19:48:14.093Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 42%
+2024-07-09T19:48:14.095Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 43%
+2024-07-09T19:48:14.099Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 44%
+2024-07-09T19:48:14.102Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 45%
+2024-07-09T19:48:14.104Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 46%
+2024-07-09T19:48:14.106Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 47%
+2024-07-09T19:48:14.110Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 48%
+2024-07-09T19:48:14.112Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 49%
+2024-07-09T19:48:14.116Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 50%
+2024-07-09T19:48:14.119Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 51%
+2024-07-09T19:48:14.122Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 52%
+2024-07-09T19:48:14.124Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 53%
+2024-07-09T19:48:14.128Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 54%
+2024-07-09T19:48:14.135Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 56%
+2024-07-09T19:48:14.139Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 58%
+2024-07-09T19:48:14.140Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 59%
+2024-07-09T19:48:14.143Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 60%
+2024-07-09T19:48:14.148Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 61%
+2024-07-09T19:48:14.150Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 62%
+2024-07-09T19:48:14.152Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 63%
+2024-07-09T19:48:14.155Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 64%
+2024-07-09T19:48:14.158Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 65%
+2024-07-09T19:48:14.160Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 66%
+2024-07-09T19:48:14.163Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 67%
+2024-07-09T19:48:14.168Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 68%
+2024-07-09T19:48:14.170Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 69%
+2024-07-09T19:48:14.172Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 70%
+2024-07-09T19:48:14.176Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 71%
+2024-07-09T19:48:14.178Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 72%
+2024-07-09T19:48:14.181Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 73%
+2024-07-09T19:48:14.186Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 75%
+2024-07-09T19:48:14.188Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 76%
+2024-07-09T19:48:14.192Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 77%
+2024-07-09T19:48:14.195Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 78%
+2024-07-09T19:48:14.199Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 79%
+2024-07-09T19:48:14.203Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 80%
+2024-07-09T19:48:14.204Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 81%
+2024-07-09T19:48:14.206Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 82%
+2024-07-09T19:48:14.209Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 83%
+2024-07-09T19:48:14.212Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 84%
+2024-07-09T19:48:14.215Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 85%
+2024-07-09T19:48:14.220Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 87%
+2024-07-09T19:48:14.222Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 88%
+2024-07-09T19:48:14.226Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 89%
+2024-07-09T19:48:14.229Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 90%
+2024-07-09T19:48:14.234Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 92%
+2024-07-09T19:48:14.247Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 93%
+2024-07-09T19:48:14.251Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 95%
+2024-07-09T19:48:14.257Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 97%
+2024-07-09T19:48:14.259Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 98%
+2024-07-09T19:48:14.261Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 99%
+2024-07-09T19:48:14.262Z [Modules] Streaming discord_game_utils@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 100%
+2024-07-09T19:48:14.264Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-07-09T19:48:14.265Z [Modules] Streaming discord_rpc@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip
+2024-07-09T19:48:14.327Z [Modules] Installing discord_game_utils@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip
+2024-07-09T19:48:14.462Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2024-07-09T19:48:14.796Z [Modules] Streaming discord_rpc@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip: 38%
+2024-07-09T19:48:14.798Z [Modules] Streaming discord_rpc@1 to /home/gabriel/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip: 100%
+2024-07-09T19:48:14.800Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-07-09T19:48:14.800Z [Modules] Installing discord_rpc@1 from /home/gabriel/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip
+2024-07-09T19:48:14.836Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-07-09T20:01:57.910Z [Modules] Checking for host updates.
+2024-07-09T20:01:58.136Z [Modules] Host is up to date.
+2024-07-09T20:01:58.136Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-09T20:01:58.273Z [Modules] No module updates available.
+2024-07-14T18:15:10.791Z [Modules] Modules initializing
+2024-07-14T18:15:10.791Z [Modules] Distribution: remote
+2024-07-14T18:15:10.791Z [Modules] Host updates: enabled
+2024-07-14T18:15:10.792Z [Modules] Module updates: enabled
+2024-07-14T18:15:10.792Z [Modules] Module install path: /home/gabriel/.config/discord/0.0.59/modules
+2024-07-14T18:15:10.792Z [Modules] Module installed file path: /home/gabriel/.config/discord/0.0.59/modules/installed.json
+2024-07-14T18:15:10.792Z [Modules] Module download path: /home/gabriel/.config/discord/0.0.59/modules/pending
+2024-07-14T18:15:11.211Z [Modules] No updates to install
+2024-07-14T18:15:11.211Z [Modules] Checking for host updates.
+2024-07-14T18:15:11.684Z [Modules] Host is up to date.
+2024-07-14T18:15:11.685Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-14T18:15:11.834Z [Modules] No module updates available.
+2024-07-14T18:15:16.578Z [Modules] Checking for host updates.
+2024-07-14T18:15:16.800Z [Modules] Host is up to date.
+2024-07-14T18:15:16.800Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-14T18:15:16.824Z [Modules] No module updates available.
+2024-07-14T18:15:18.862Z [Modules] Checking for host updates.
+2024-07-14T18:15:19.041Z [Modules] Host is up to date.
+2024-07-14T18:15:19.041Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-14T18:15:19.045Z [Modules] No module updates available.
+2024-07-14T19:26:25.625Z [Modules] Modules initializing
+2024-07-14T19:26:25.625Z [Modules] Distribution: remote
+2024-07-14T19:26:25.625Z [Modules] Host updates: enabled
+2024-07-14T19:26:25.626Z [Modules] Module updates: enabled
+2024-07-14T19:26:25.626Z [Modules] Module install path: /home/gabriel/.config/discord/0.0.59/modules
+2024-07-14T19:26:25.626Z [Modules] Module installed file path: /home/gabriel/.config/discord/0.0.59/modules/installed.json
+2024-07-14T19:26:25.627Z [Modules] Module download path: /home/gabriel/.config/discord/0.0.59/modules/pending
+2024-07-14T19:26:26.082Z [Modules] No updates to install
+2024-07-14T19:26:26.083Z [Modules] Checking for host updates.
+2024-07-14T19:26:26.408Z [Modules] Host is up to date.
+2024-07-14T19:26:26.409Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-14T19:26:26.559Z [Modules] No module updates available.
+2024-07-14T19:26:29.642Z [Modules] Checking for host updates.
+2024-07-14T19:26:29.810Z [Modules] Host is up to date.
+2024-07-14T19:26:29.810Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-14T19:26:29.815Z [Modules] No module updates available.
